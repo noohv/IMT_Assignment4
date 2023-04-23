@@ -4,13 +4,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Recipe: Traditional Cold Beet Soup</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="application/ld+json">
           {
             "@context": "https://schema.org/",
             "@type": "Recipe",
             "name": "Traditional Cold Beet Soup",
-            "description": "Traditional cold beet soup",
-            "image": "./aukstzup.png",
+            "description": "Traditional cold beet soup with bologna sausage. One of the best foods when it is hot outside.",
+            "image": "./images/cold_beet_soup.png",
             "author": {
               "@type": "Person",
               "name": "Valters Hūns"
@@ -19,7 +21,9 @@
             "prepTime": "PT30M",
             "cookTime": "PT20M",
             "totalTime": "PT50M",
+            "keywords": "cold, beet, soup, summer",
             "recipeYield": "4",
+            "cookingMethod": "Boiling",
             "recipeCategory": "Soup",
             "recipeCuisine": "Latvian",
             "recipeIngredient": [
@@ -45,27 +49,37 @@
               {
                 "@type": "HowToStep",
                 "name": "Boil potatoes and eggs",
-                "text": "Boil 5 potatoes until they are soft. At the sime time cook 3 hard boiled eggs."
+                "text": "Boil 5 potatoes until they are soft. At the sime time cook 3 hard boiled eggs.",
+                "url": "https://huuns.id.lv#step1",
+                "image": "./images/boil_eggs.jpg"
               },
               {
                 "@type": "HowToStep",
                 "name": "Chop ingredients",
-                "text": "Chop all of the ingredients into small pieces/cubes."
+                "text": "Chop all of the ingredients into small pieces/cubes.",
+                "url": "https://huuns.id.lv#step1",
+                "image": "./images/boil_eggs.jpg"
               },
               {
                 "@type": "HowToStep",
                 "name": "Add kefir",
-                "text": "Put ingredients into one bowl and add kefir. Mix all the ingredients."
+                "text": "Put ingredients into one bowl and add kefir. Mix all the ingredients.",
+                "url": "https://huuns.id.lv#step1",
+                "image": "./images/boil_eggs.jpg"
               },
               {
                 "@type": "HowToStep",
                 "name": "Add spices",
-                "text": "Add spices of your liking, for example, salt, pepper, mustard, horseradish etc."
+                "text": "Add spices of your liking, for example, salt, pepper, mustard, horseradish etc.",
+                "url": "https://huuns.id.lv#step1",
+                "image": "./images/boil_eggs.jpg"
               },
               {
                 "@type": "HowToStep",
                 "name": "Leave it in refrigerator",
-                "text": "Leave the soup in refrigerator for about 25-30 min for better taste."
+                "text": "Leave the soup in refrigerator for about 25-30 min for better taste.",
+                "url": "https://huuns.id.lv#step1",
+                "image": "./images/boil_eggs.jpg"
               }
           ],
             "nutrition": {
@@ -79,7 +93,7 @@
             "suitableForDiet": "https://schema.org/LowFatDiet",
             "aggregateRating": {
               "@type": "AggregateRating",
-              "ratingValue": "4.5",
+              "ratingValue": "4",
               "ratingCount": "16"
             }
           }
@@ -88,39 +102,59 @@
     </head>
 
     <body>
-      <h1>Traditional Cold Beet Soup</h1>
-      <img src="./aukstzup.png" alt="Traditional Cold Beet Soup" />
-      <p>Author: Valters Hūns</p>
-      <p>Date Published: 2023-04-23</p>
-      <p>Prep Time: 30 minutes</p>
-      <p>Cook Time: 20 minutes</p>
-      <p>Total Time: 50 minutes</p>
-      <p>Serves: 4</p>
-      <p>Category: Soup</p>
-      <p>Cuisine: Latvian</p>
-      <h2>Ingredients</h2>
-      <ul>
-        <li>5 medium sized potatoes</li>
-        <li>250 g bologna sausage</li>
-        <li>1.5 l kefir</li>
-        <li>1 cucumber</li>
-        <li>3 eggs</li>
-        <li>0.5 l pickled beets</li>
-        <li>50 g of dill</li>
-        <li>50 g of spring onions</li>
-        <li>1/2 teaspoon of mustard</li>
-        <li>1/2 teaspoon of horseradish</li>
-        <li>A pinch of salt</li>
-        <li>A pinch of pepper</li>
-      </ul>
-      <h2>Instructions</h2>
-      <ol>
-        <li>Boil 5 potatoes until they are soft. At the sime time cook 3 hard boiled eggs.</li>
-        <li>Chop all of the ingredients into small pieces/cubes.</li>
-        <li>Put ingredients into one bowl and add kefir. Mix all the ingredients.</li>
-        <li>Add spices of your liking, for example, salt, pepper, mustard, horseradish etc.</li>
-        <li>Leave the soup in refrigerator for about 25-30 min for better taste.</li>
-      </ol>
+      <h1 id="title">Traditional Cold Beet Soup</h1>
+      <div id="publishData">
+        <p>Valters Hūns</p>
+        <p>2023-04-23</p>
+      </div>
+      <div id="recipeReview">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p>(based on 16 reviews)</p>
+      </div>
+
+      <img id="titlePhoto" src="./images/cold_beet_soup.png" alt="Traditional Cold Beet Soup" />
+      
+      <div id="foodInfo">
+        <p>Prep Time: 30 minutes</p>
+        <p>Cook Time: 20 minutes</p>
+        <p>Total Time: 50 minutes</p>
+        <p>Servings: 4</p>
+        <p>Category: Soup</p>
+        <p>Cuisine: Latvian</p>
+      </div>
+      
+      <div id="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>5 medium sized potatoes</li>
+          <li>250 g bologna sausage</li>
+          <li>1.5 l kefir</li>
+          <li>1 cucumber</li>
+          <li>3 eggs</li>
+          <li>0.5 l pickled beets</li>
+          <li>50 g of dill</li>
+          <li>50 g of spring onions</li>
+          <li>1/2 teaspoon of mustard</li>
+          <li>1/2 teaspoon of horseradish</li>
+          <li>A pinch of salt</li>
+          <li>A pinch of pepper</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Instructions</h2>
+        <ol>
+          <li id="step1">Boil 5 potatoes until they are soft. At the sime time cook 3 hard boiled eggs.</li>
+          <li id="step2">Chop all of the ingredients into small pieces/cubes.</li>
+          <li id="step3">Put ingredients into one bowl and add kefir. Mix all the ingredients.</li>
+          <li id="step4">Add spices of your liking, for example, salt, pepper, mustard, horseradish etc.</li>
+          <li id="step5">Leave the soup in refrigerator f or about 25-30 min for better taste.</li>
+        </ol>  
+      </div>
       <h2>Nutrition Information</h2>
       <ul>
         <li>Serving Size: 1 serving</li>
@@ -130,7 +164,5 @@
         <li>Protein Content: 6g</li>
       </ul>
       <p>Suitable for Low Fat Diet</p>
-      <h2>Reviews</h2>
-      <p>Average rating: 4.5 (based on 16 reviews)</p>
     </body>
 </html>
