@@ -9,7 +9,7 @@
 
       <url>
             <loc>https://huuns.id.lv/</loc>
-            <lastmod>2023-04-28T10:27:45+00:00</lastmod>
+            <lastmod>2023-04-29T08:23:50+00:00</lastmod>
             <priority>1.00</priority>
       </url>
       <url>
@@ -17,5 +17,9 @@
             <lastmod>2023-04-26T06:32:30+00:00</lastmod>
             <priority>1.00</priority>
       </url>
-
+      <url>
+            <loc>https://huuns.id.lv/faq_page.html</loc>
+            <lastmod>2023-04-29T08:23:50+00:00</lastmod>
+            <priority>1.00</priority>
+      </url>
 </urlset>
